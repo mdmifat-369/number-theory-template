@@ -30,6 +30,12 @@ int32_t main(){
         cin>>n>>r;
 
         cout<< C[n][r] <<endl;
+
+
+        // u need nPr
+         // nPr = nCr * r!
+        // int nPr = (C[n][r] * fact[r]) % mod;
+        // cout << nPr << endl;
     }
 
     return 0;
